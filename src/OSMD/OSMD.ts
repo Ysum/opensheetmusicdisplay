@@ -49,7 +49,8 @@ export class OSMD {
         this.cursor = new Cursor(inner, this);
 
         if (autoResize) {
-            this.autoResize();
+            if (this.graphic)
+                this.autoResize();
         }
     }
 

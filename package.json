@@ -14,9 +14,6 @@
     "prepublish": "grunt build:dist",
     "start": "http-server build/demo"
   },
-  "pre-commit": [
-    "lint"
-  ],
   "files": [
     "dist",
     "AUTHORS",
